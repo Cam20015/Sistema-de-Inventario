@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url(../imagenes/prueba.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0px;
+    overflow-x: auto;	
+    margin-top: 20px;    
+}
+
+/* header{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+} */
+
+h1{
+	width: 200px;
+    border-radius: 50%;
+    font-size: 30px;
+    color:  blue;
+    line-height: 200px;
+    text-align: center;
+    background:url(../imagenes/fondo.jpg);
+    background-position: center center;
+    border-style:solid;
+    border-color:blue; 
+    margin: auto;
+    padding: 5px;  
+}
+
+.botonTP {
+    padding: 0px;
+    padding-left: 60px;
+    width: 25%;
+}
+
+/* /*menu*/
+
+/* .menu{
+    top: -20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+} */
+
+/*listas del menu*/
+
+/* .menu ul{
+    list-style: none;
+}
+
+.menu > ul{
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background: #000;
+    position: relative;
+} 
+
+items del menu
+
+.menu > ul li{
+    display: table-cell;
+}
+
+enlaces del menu
+
+.menu > ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 40px;
+    padding: 22px;
+    position: relative;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.menu > ul > li > a span{
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -38px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.menu > ul > li > a span .icon{
+    display: block;
+    line-height: 40px;
+}
+
+.menu > ul > li a:hover > span{
+    top: 0;
+}
+
+colores
+
+.menu ul li a .uno{
+    background: #0e5061;
+}
+
+.menu ul li a .dos{
+    background: #5da5a2;
+}
+
+.menu ul li a .tres{
+    background: #f25724;
+}
+
+.menu ul li a .cuatro{
+    background: #174459;
+}
+
+.menu ul li a .cinco{
+    background: #37a4d9;
+}
+.nombredelempleado {
+    background: #f3f3f3;
+}
+ */
+ form{
+    margin-left: 30px;
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 10px;
+    margin-top: 50px;
+    background: rgb(241, 244, 252);
+ }
+
+h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+ div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+select{
+    width: 50%;
+    border-color: royalblue;
+    height: 25px;
+}
+
+.confirmar{
+    width: 100px;
+    font-size: 15px;
+    border-color: royalblue;
+    /* background-color: rgb(82, 82, 255); */
+    height: 25px;
+}
+
+.confirmar:hover{
+    background: #175fe6;
+}
+
+.uno {
+    height: 50px;
+}
+
+.dos {
+    height: 100px;
+}
+
+label{
+    line-height: 70px;
+}
+
+.nombredelproducto {
+    margin-left: 10px;
+    border-color: royalblue;
+    height: 25px;
+    width: 130px;
+}
+
+.botones {
+    height: 70px;
+}
+
+.cancelar{
+    width: 100px;
+    font-size: 15px;
+    border-color: royalblue;
+    /* background-color: rgb(82, 82, 255); */
+    margin: 5px;
+    height: 25px;
+}
+
+.cancelar:hover{
+    background: #175fe6;
+}
+
+.buscar{
+    width: 100px;
+    font-size: 15px;
+    border-color: royalblue;
+    /* background-color: rgb(82, 82, 255); */
+    margin: 5px;
+    height: 25px;
+}
+
+.buscar:hover{
+    background: #175fe6;
+}
+
+ .tabla{
+    display: absolute;
+    position: relative;
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    left: 45%;
+    margin-top: 50px;
+ }
+
+ th,td{
+    border: 1px solid black;
+    height: 55px;    
+ }
+
